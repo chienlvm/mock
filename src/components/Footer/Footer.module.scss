@@ -1,0 +1,14 @@
+.footer {
+  height: 55x;
+  background: #F6F5FF;
+  margin-top: 20px;
+  padding: 1rem;
+
+  &__name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #9DA0AE;
+    padding-left: 300px;
+  }
+}

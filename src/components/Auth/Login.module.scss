@@ -1,0 +1,81 @@
+.login {
+  width: 550px;
+  height: 450px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 25px 10px #F8F8FB;
+  padding: 50px;
+  margin: 120px auto;
+
+  &__title {
+    text-align: center;
+  }
+  &__text {
+    font-family: Josefin Sans;
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+  }
+  &__describe {
+    margin-top: 10px;
+    font-family: Lato;
+    font-size: 17px;
+    color: #9096B2;
+  }
+
+  &__phoneNumber {
+    margin-top: 20px;
+    input {
+      width: 435px;
+      height: 52px;
+    }
+  }
+  &__password {
+    margin-top: 20px;
+    input {
+      width: 435px;
+      height: 52px;
+      border-radius: 2px;
+      border: 1px solid #C2C5E1;
+    }
+  }
+  &__forgot {
+    font-size: 17px;
+    color: #9096B2;
+    margin-top: 15px;
+    padding-left: 1rem;
+  }
+  &__createAccount {
+    font-size: 17px;
+    color: #9096B2;
+    margin-top: 15px;
+    padding-left: 1rem;
+    text-align: center;
+  }
+  &__link {
+    color: #007bff;
+    text-decoration: none;
+
+    &:hover {
+      color: #0056b3;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  &__btnSignIn {
+    margin-top: 15px;
+    width: 435px;
+    height: 45px;
+    background: #FB2E86;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 0;
+    &:hover {
+      cursor: pointer;
+      background: #fb2eb3;
+    }
+  }
+
+}

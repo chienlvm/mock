@@ -1,0 +1,32 @@
+.main {
+  width: 980px;
+  margin: 3rem auto;
+}
+
+.customerForm {
+  width: 400px;
+  margin: 3rem auto;
+}
+
+.profile h1 {
+  font-size: 5rem;
+}
+.registerForm {
+  width: 500px;
+  margin: 3rem auto;
+}
+.avatar {
+  width: 200px;
+}
+.avatar:hover {
+  cursor: pointer;
+}
+.inputNumber {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.inputNumber::-webkit-outer-spin-button,
+.inputNumber::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

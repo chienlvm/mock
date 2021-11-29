@@ -1,0 +1,42 @@
+.breadcrumb {
+  height: 200px;
+  background: #F6F5FF;
+
+  &__main {
+    width: 980px;
+    margin: 0 auto;
+    vertical-align: middle;
+    height: 100%;
+    padding: 3.5rem 0;
+  }
+  &__title {
+    font-size: 36px;
+    line-height: 42px;
+    color: #101750;
+    font-weight: bold;
+    font-family: Josefin Sans;
+    display: block;
+  }
+
+  &__list{
+    display: flex;
+    align-items: center;
+  }
+
+  &__item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    + ::before {
+      display: inline-block;
+      padding-right: 0.5rem;
+      padding-left: 0.5rem;
+      color: #6c757d;
+      content: "/";
+    }
+  }
+  &__itemName {
+    color: #FB2E86;
+  }
+}

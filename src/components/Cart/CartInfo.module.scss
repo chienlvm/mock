@@ -1,0 +1,56 @@
+.infoCustomer {
+  padding-left: 10px;
+}
+.customer {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+.customerName {
+  align-items: center;
+  display: flex;
+  width: 300px;
+}
+.cartLink {
+  align-items: center;
+  display: flex;
+  margin-right: 30px;
+  max-width: 300px;
+}
+.title {
+  color: #1D3178;
+  font-weight: 600;
+  font-size: 20px;
+  margin-right: 10px;
+  max-width: 200px;
+  flex-shrink: 0;
+}
+.value {
+  font-weight: normal;
+  color: #8A91AB;
+  font-size: 15px;
+}
+.phoneNumber {
+  margin-top: 15px;
+  align-items: center;
+  display: flex;
+  width: 300px;
+}
+.share {
+  background: #FFE7F9;
+  border-radius: 2px;
+  color: #151875;
+  font-size: 14px;
+  padding: 5px 40px;
+  font-weight: bold;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.info {
+  color: #1D3178;
+  font-size: 25px;
+}
+.cartContent {
+  display: flex;
+}
